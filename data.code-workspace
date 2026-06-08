@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Z score codex/data"
+		},
+		{
+			"path": "../Z score codex/preferred_zscore"
+		},
+		{
+			"path": "../Z score codex/scripts"
+		},
+		{
+			"path": "../Z score codex/tests"
+		}
+	]
+}

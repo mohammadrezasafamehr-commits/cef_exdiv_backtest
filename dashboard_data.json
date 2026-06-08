@@ -1,0 +1,3770 @@
+{
+  "generated_at": "2026-05-27 13:25:39",
+  "summary": {
+    "total_trades": 720,
+    "win_rate": 55.83,
+    "avg_winner_bps": 369.42,
+    "avg_loser_bps": -299.53,
+    "win_loss_ratio": 1.23,
+    "profit_factor": 1.56,
+    "total_return_bps": 53256.43,
+    "avg_return_bps": 73.97,
+    "std_return_bps": 436.4,
+    "sharpe_ratio": 0.1695,
+    "max_return_bps": 1776.74,
+    "min_return_bps": -1060.47
+  },
+  "regime_analysis": [
+    {
+      "regime": "Calm (<15)",
+      "n_trades": 312,
+      "win_rate": 43.91,
+      "avg_return_bps": -21.71,
+      "total_return_bps": -6771.97,
+      "avg_vix": 13.69
+    },
+    {
+      "regime": "Normal (15-20)",
+      "n_trades": 292,
+      "win_rate": 62.33,
+      "avg_return_bps": 120.13,
+      "total_return_bps": 35079.01,
+      "avg_vix": 17.4
+    },
+    {
+      "regime": "Stressed (>20)",
+      "n_trades": 116,
+      "win_rate": 71.55,
+      "avg_return_bps": 215.08,
+      "total_return_bps": 24949.39,
+      "avg_vix": 22.74
+    }
+  ],
+  "entry_analysis": [
+    {
+      "entry_type": "ex_div_close",
+      "n_trades": 240,
+      "win_rate": 51.67,
+      "avg_return_bps": 40.79,
+      "total_return_bps": 9790.28
+    },
+    {
+      "entry_type": "ex_div_open",
+      "n_trades": 240,
+      "win_rate": 51.67,
+      "avg_return_bps": 54.6,
+      "total_return_bps": 13104.88
+    },
+    {
+      "entry_type": "t_minus_1_close",
+      "n_trades": 240,
+      "win_rate": 64.17,
+      "avg_return_bps": 126.51,
+      "total_return_bps": 30361.27
+    }
+  ],
+  "holding_analysis": [
+    {
+      "holding_days": 5,
+      "n_trades": 180,
+      "win_rate": 70.56,
+      "avg_return_bps": 123.9,
+      "total_return_bps": 22302.35
+    },
+    {
+      "holding_days": 10,
+      "n_trades": 180,
+      "win_rate": 59.44,
+      "avg_return_bps": 149.46,
+      "total_return_bps": 26903.7
+    },
+    {
+      "holding_days": 15,
+      "n_trades": 180,
+      "win_rate": 49.44,
+      "avg_return_bps": 17.35,
+      "total_return_bps": 3122.79
+    },
+    {
+      "holding_days": 20,
+      "n_trades": 180,
+      "win_rate": 43.89,
+      "avg_return_bps": 5.15,
+      "total_return_bps": 927.59
+    }
+  ],
+  "heatmap_data": {
+    "regimes": [
+      "Calm (<15)",
+      "Normal (15-20)",
+      "Stressed (>20)"
+    ],
+    "holding_periods": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "win_rates": [
+      [
+        60.26,
+        42.31,
+        39.74,
+        33.33
+      ],
+      [
+        75.34,
+        69.86,
+        56.16,
+        47.95
+      ],
+      [
+        86.21,
+        79.31,
+        58.62,
+        62.07
+      ]
+    ]
+  },
+  "top_tickers": [
+    {
+      "ticker": "GOF",
+      "n_trades": 144,
+      "win_rate": 59.03,
+      "avg_return_bps": 155.28,
+      "total_return_bps": 22360.99
+    },
+    {
+      "ticker": "UTF",
+      "n_trades": 144,
+      "win_rate": 63.89,
+      "avg_return_bps": 116.58,
+      "total_return_bps": 16787.42
+    },
+    {
+      "ticker": "PDI",
+      "n_trades": 144,
+      "win_rate": 55.56,
+      "avg_return_bps": 112.29,
+      "total_return_bps": 16169.4
+    },
+    {
+      "ticker": "PTY",
+      "n_trades": 144,
+      "win_rate": 54.86,
+      "avg_return_bps": 10.73,
+      "total_return_bps": 1544.73
+    },
+    {
+      "ticker": "CSQ",
+      "n_trades": 144,
+      "win_rate": 45.83,
+      "avg_return_bps": -25.04,
+      "total_return_bps": -3606.11
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -70.26
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -336.15
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -933.0
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -1429.74
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -1352.38
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -1457.97
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -1892.76
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -2327.69
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -2585.56
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -3081.29
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -4052.62
+    },
+    {
+      "date": "2023-01-11",
+      "cumulative_pnl_bps": -4924.39
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -5146.24
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -5519.51
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -6089.59
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -6528.7
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -6797.06
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -7217.54
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -7835.72
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -8322.33
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -8342.47
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -8559.79
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -9066.65
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -9635.23
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -9636.93
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -9835.45
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -10322.98
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -10872.11
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -11285.16
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -11867.84
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -12928.31
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -13788.61
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -14169.73
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -14719.96
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -15746.51
+    },
+    {
+      "date": "2023-01-12",
+      "cumulative_pnl_bps": -16573.51
+    },
+    {
+      "date": "2023-01-13",
+      "cumulative_pnl_bps": -16413.82
+    },
+    {
+      "date": "2023-01-13",
+      "cumulative_pnl_bps": -16269.9
+    },
+    {
+      "date": "2023-01-13",
+      "cumulative_pnl_bps": -16270.76
+    },
+    {
+      "date": "2023-01-13",
+      "cumulative_pnl_bps": -16463.32
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16377.16
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16452.55
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16701.31
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16839.97
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16788.99
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -16900.14
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -17185.27
+    },
+    {
+      "date": "2023-01-17",
+      "cumulative_pnl_bps": -17359.91
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -17188.66
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -16553.43
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -15966.19
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -15025.02
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -14748.34
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -14104.3
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -13630.01
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -12597.55
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -12542.34
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -12131.11
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -11993.99
+    },
+    {
+      "date": "2023-02-09",
+      "cumulative_pnl_bps": -11240.57
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -11168.52
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -10664.78
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -10253.36
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -9196.76
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -9100.73
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -8574.05
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -8139.48
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -7061.29
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -6937.85
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -6391.0
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -6160.15
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -5060.81
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -4839.3
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -4198.59
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -3870.74
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -2683.04
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -2640.85
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -2356.42
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -2300.65
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -1448.62
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -1311.01
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -933.48
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": -782.42
+    },
+    {
+      "date": "2023-02-10",
+      "cumulative_pnl_bps": 157.25
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 605.32
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 717.99
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 853.65
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 1341.77
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 1836.62
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 2415.89
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 3068.04
+    },
+    {
+      "date": "2023-02-13",
+      "cumulative_pnl_bps": 4177.39
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 4362.65
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 4365.85
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 4339.57
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 5017.38
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 5208.39
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 5217.44
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 5197.03
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 5880.29
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 6345.21
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 6910.89
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 7573.44
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 8557.94
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 8996.95
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 9536.99
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 10174.17
+    },
+    {
+      "date": "2023-02-14",
+      "cumulative_pnl_bps": 11134.17
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 11560.19
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 12386.07
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 13063.1
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 13729.73
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 14204.27
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 14853.71
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 15358.41
+    },
+    {
+      "date": "2023-03-09",
+      "cumulative_pnl_bps": 15634.67
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 16113.23
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 16773.48
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 17392.03
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 17937.72
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 18235.21
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 18717.85
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 19158.0
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 19523.9
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 20049.08
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 20620.2
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21022.22
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21178.32
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21434.64
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21738.22
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21867.89
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21744.66
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21865.58
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21830.46
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21416.58
+    },
+    {
+      "date": "2023-03-10",
+      "cumulative_pnl_bps": 21076.8
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21528.19
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21771.24
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21769.2
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21693.54
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21794.56
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 22055.55
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21749.55
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21391.49
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21378.76
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 21314.04
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 20871.41
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 20539.75
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 20284.41
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 19975.82
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 19280.14
+    },
+    {
+      "date": "2023-03-13",
+      "cumulative_pnl_bps": 18698.14
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19154.19
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19439.17
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19406.55
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19447.05
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19926.3
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20234.89
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20226.66
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20291.37
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20439.84
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20609.79
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20265.12
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19924.64
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20051.82
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 20200.52
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19833.49
+    },
+    {
+      "date": "2023-03-14",
+      "cumulative_pnl_bps": 19470.65
+    },
+    {
+      "date": "2023-04-10",
+      "cumulative_pnl_bps": 19583.9
+    },
+    {
+      "date": "2023-04-10",
+      "cumulative_pnl_bps": 19776.21
+    },
+    {
+      "date": "2023-04-10",
+      "cumulative_pnl_bps": 20051.76
+    },
+    {
+      "date": "2023-04-10",
+      "cumulative_pnl_bps": 20381.36
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20669.76
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20743.15
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20722.74
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20503.84
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20584.79
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20494.53
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20271.94
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20072.54
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20136.3
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20418.04
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 20800.31
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 21190.84
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 21275.35
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 21577.39
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 21979.75
+    },
+    {
+      "date": "2023-04-11",
+      "cumulative_pnl_bps": 22390.34
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22736.46
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22710.64
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22623.64
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22436.61
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22734.38
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22658.33
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22520.8
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22282.74
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22287.17
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22168.62
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22178.92
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22281.22
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22338.9
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 22240.81
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21986.94
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21896.35
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21876.21
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21699.07
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21364.93
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21195.36
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21103.23
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21248.54
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21458.51
+    },
+    {
+      "date": "2023-04-12",
+      "cumulative_pnl_bps": 21596.35
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21588.6
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21394.95
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21349.77
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21316.84
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21302.9
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21102.95
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21051.56
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21012.42
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 20832.75
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 20805.22
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21082.13
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21228.37
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21193.94
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21309.48
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 21725.09
+    },
+    {
+      "date": "2023-04-13",
+      "cumulative_pnl_bps": 22011.9
+    },
+    {
+      "date": "2023-05-08",
+      "cumulative_pnl_bps": 22229.34
+    },
+    {
+      "date": "2023-05-08",
+      "cumulative_pnl_bps": 22805.18
+    },
+    {
+      "date": "2023-05-08",
+      "cumulative_pnl_bps": 23670.3
+    },
+    {
+      "date": "2023-05-08",
+      "cumulative_pnl_bps": 24042.84
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 24325.24
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 24677.74
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 24797.79
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 24669.19
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 25130.34
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 25537.87
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 25739.0
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 25451.07
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 25667.57
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 26160.0
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 26871.4
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 27039.28
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 27272.86
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 27781.9
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 28509.52
+    },
+    {
+      "date": "2023-05-09",
+      "cumulative_pnl_bps": 28694.57
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 28870.08
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29175.89
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29237.0
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29047.97
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29180.67
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29444.24
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29462.04
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29228.61
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29607.55
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30047.75
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30142.46
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29853.3
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30165.47
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30539.32
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30565.28
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30204.7
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30257.72
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30515.43
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 30429.18
+    },
+    {
+      "date": "2023-05-10",
+      "cumulative_pnl_bps": 29984.35
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30223.95
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30803.55
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30925.38
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 31102.73
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30927.61
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 31003.28
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30621.25
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30150.52
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 29982.89
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 30065.86
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 29691.47
+    },
+    {
+      "date": "2023-05-11",
+      "cumulative_pnl_bps": 29228.44
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 29408.43
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 29707.11
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 29674.19
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 29741.2
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 29871.91
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 30121.91
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 30038.65
+    },
+    {
+      "date": "2023-05-12",
+      "cumulative_pnl_bps": 30055.81
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 30217.39
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 30207.8
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 30166.01
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 29937.02
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 30126.15
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 29874.19
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 29390.4
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 28585.1
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 28319.35
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 28179.78
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 27808.49
+    },
+    {
+      "date": "2023-06-08",
+      "cumulative_pnl_bps": 27577.42
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 27681.41
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 27574.79
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 27343.91
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 27010.36
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 27076.9
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 26932.03
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 26662.43
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 26289.77
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 26292.31
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 25856.31
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 25125.39
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 24228.05
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 24131.58
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 23592.22
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 22755.02
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 21749.74
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 21432.78
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 21334.77
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 20812.59
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 20424.55
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 20114.87
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 20023.97
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 19509.21
+    },
+    {
+      "date": "2023-06-09",
+      "cumulative_pnl_bps": 19128.49
+    },
+    {
+      "date": "2023-06-12",
+      "cumulative_pnl_bps": 19202.69
+    },
+    {
+      "date": "2023-06-12",
+      "cumulative_pnl_bps": 19002.72
+    },
+    {
+      "date": "2023-06-12",
+      "cumulative_pnl_bps": 18470.18
+    },
+    {
+      "date": "2023-06-12",
+      "cumulative_pnl_bps": 17852.15
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17964.51
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17887.45
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17829.18
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17732.92
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17599.81
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 17209.0
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 16650.86
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 16056.43
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 15937.02
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 15560.25
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 15016.37
+    },
+    {
+      "date": "2023-06-13",
+      "cumulative_pnl_bps": 14436.26
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 14498.98
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 14370.36
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 14177.86
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 14036.22
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 14086.28
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 13944.76
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 13739.28
+    },
+    {
+      "date": "2023-06-14",
+      "cumulative_pnl_bps": 13584.72
+    },
+    {
+      "date": "2023-07-10",
+      "cumulative_pnl_bps": 13751.1
+    },
+    {
+      "date": "2023-07-10",
+      "cumulative_pnl_bps": 13993.65
+    },
+    {
+      "date": "2023-07-10",
+      "cumulative_pnl_bps": 14070.74
+    },
+    {
+      "date": "2023-07-10",
+      "cumulative_pnl_bps": 14329.97
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14545.31
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14608.76
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14593.58
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14348.02
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14536.36
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14564.73
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14502.62
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14238.85
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14401.85
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14628.59
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14697.62
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 14885.76
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 15057.11
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 15292.16
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 15369.62
+    },
+    {
+      "date": "2023-07-11",
+      "cumulative_pnl_bps": 15566.09
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15656.6
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15646.86
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15510.54
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15216.02
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15280.4
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15244.28
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15081.24
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 14759.58
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 14936.0
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15106.14
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15288.43
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15353.88
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15361.58
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15348.27
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15286.11
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15140.3
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15278.13
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15395.22
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15464.09
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15450.41
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15188.99
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15115.1
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15141.61
+    },
+    {
+      "date": "2023-07-12",
+      "cumulative_pnl_bps": 15027.23
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15056.94
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15111.43
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15159.55
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15095.39
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15075.25
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15080.02
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 15078.39
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14963.92
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14693.95
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14572.39
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14565.48
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14443.65
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14201.29
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14106.94
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14126.93
+    },
+    {
+      "date": "2023-07-13",
+      "cumulative_pnl_bps": 14032.31
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 14489.1
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 15089.34
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 15807.39
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 16566.33
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 16841.73
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 17213.21
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 17508.95
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 17735.83
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 18034.42
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 18419.19
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 18511.66
+    },
+    {
+      "date": "2023-08-09",
+      "cumulative_pnl_bps": 18696.96
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 19196.03
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 19669.01
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 20287.23
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 21024.73
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 21494.18
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 21937.45
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 22526.41
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 23235.03
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 23507.37
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 23758.68
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 23884.51
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 24149.48
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 24415.06
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 24659.59
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 24778.55
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 25036.75
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 25435.22
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 25966.44
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 26065.63
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 26197.91
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 26538.74
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 27013.12
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 27052.87
+    },
+    {
+      "date": "2023-08-10",
+      "cumulative_pnl_bps": 27125.91
+    },
+    {
+      "date": "2023-08-11",
+      "cumulative_pnl_bps": 27335.44
+    },
+    {
+      "date": "2023-08-11",
+      "cumulative_pnl_bps": 27476.56
+    },
+    {
+      "date": "2023-08-11",
+      "cumulative_pnl_bps": 27741.69
+    },
+    {
+      "date": "2023-08-11",
+      "cumulative_pnl_bps": 27814.25
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27825.7
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27748.57
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27696.57
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27663.39
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27731.19
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27710.92
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27715.63
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 27739.05
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 28373.57
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 28933.26
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 29541.14
+    },
+    {
+      "date": "2023-08-14",
+      "cumulative_pnl_bps": 30315.85
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 30842.62
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 31191.4
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 31695.67
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 32426.57
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 32940.72
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 33276.63
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 33768.24
+    },
+    {
+      "date": "2023-08-15",
+      "cumulative_pnl_bps": 34486.78
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 34783.66
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 34996.98
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 35582.8
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 36162.92
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 36438.77
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 36587.63
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 37384.7
+    },
+    {
+      "date": "2023-09-07",
+      "cumulative_pnl_bps": 38548.08
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 38674.34
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 38800.46
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 39050.32
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 39508.38
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 39656.78
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 39805.04
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 40076.76
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 40556.21
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 40700.36
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 40665.8
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 41309.67
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 42424.84
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 42533.73
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 42463.28
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 43073.69
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 44157.08
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 44319.13
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 44521.53
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 45007.19
+    },
+    {
+      "date": "2023-09-08",
+      "cumulative_pnl_bps": 45573.69
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 45629.53
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 45851.42
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 46666.72
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 47538.86
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 47444.25
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 47742.19
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 48222.8
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 48696.5
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 48588.23
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 48873.04
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 49340.76
+    },
+    {
+      "date": "2023-09-11",
+      "cumulative_pnl_bps": 49801.57
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 49829.39
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 50188.01
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 51189.18
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 51844.89
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 51920.22
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 52324.77
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 53368.8
+    },
+    {
+      "date": "2023-09-12",
+      "cumulative_pnl_bps": 54069.02
+    },
+    {
+      "date": "2023-09-13",
+      "cumulative_pnl_bps": 54238.64
+    },
+    {
+      "date": "2023-09-13",
+      "cumulative_pnl_bps": 54819.25
+    },
+    {
+      "date": "2023-09-13",
+      "cumulative_pnl_bps": 55893.08
+    },
+    {
+      "date": "2023-09-13",
+      "cumulative_pnl_bps": 56966.78
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 57176.09
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 57659.32
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 58760.64
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 59970.17
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 60198.12
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 60699.47
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 61817.74
+    },
+    {
+      "date": "2023-09-14",
+      "cumulative_pnl_bps": 63044.01
+    },
+    {
+      "date": "2023-10-09",
+      "cumulative_pnl_bps": 62778.83
+    },
+    {
+      "date": "2023-10-09",
+      "cumulative_pnl_bps": 63133.95
+    },
+    {
+      "date": "2023-10-09",
+      "cumulative_pnl_bps": 63176.1
+    },
+    {
+      "date": "2023-10-09",
+      "cumulative_pnl_bps": 62144.08
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 62986.92
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 63788.8
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 64240.69
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 63823.64
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 64083.28
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 64094.98
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 63842.75
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 62886.95
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 62616.55
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 62893.46
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 62575.86
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 61668.97
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 61535.66
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 61942.34
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 61762.46
+    },
+    {
+      "date": "2023-10-10",
+      "cumulative_pnl_bps": 61001.17
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 61522.53
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 62361.59
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 62417.69
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 61885.08
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 62361.69
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 63157.5
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 63166.66
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 62584.31
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 64361.05
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66066.63
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66877.19
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 67396.41
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 67448.27
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 67428.0
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66975.59
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66027.04
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66062.99
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66026.69
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 65557.56
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 64591.5
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 64877.2
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 65681.96
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66372.79
+    },
+    {
+      "date": "2023-10-11",
+      "cumulative_pnl_bps": 66729.2
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 67958.17
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 69696.69
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 70092.65
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 70739.73
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 71860.58
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 73497.28
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 73774.83
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 74306.61
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 74587.33
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 75519.78
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 75828.88
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 76273.95
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 76456.42
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 77297.22
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 77508.36
+    },
+    {
+      "date": "2023-10-12",
+      "cumulative_pnl_bps": 77856.84
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77882.24
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77844.89
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77602.51
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77468.13
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77357.9
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 77067.36
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 76566.47
+    },
+    {
+      "date": "2023-11-09",
+      "cumulative_pnl_bps": 76283.16
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 76171.07
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 76024.36
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 75595.9
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 75466.16
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 75195.0
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 74888.68
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 74296.17
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 74007.09
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 73805.82
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 73461.02
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 72851.93
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 72657.8
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 72417.97
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 72034.06
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 71384.86
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 71152.19
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 70962.31
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 70447.57
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 69866.27
+    },
+    {
+      "date": "2023-11-10",
+      "cumulative_pnl_bps": 69351.26
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 68974.55
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 68542.23
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 67816.59
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 67019.5
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 66808.0
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 66444.25
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 65663.29
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 65186.41
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 64734.08
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 64125.13
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 63456.43
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 62854.66
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 62456.47
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 61902.47
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 61289.03
+    },
+    {
+      "date": "2023-11-13",
+      "cumulative_pnl_bps": 60742.17
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 60437.45
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 59927.06
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 59187.28
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 58407.84
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 58380.01
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 58152.04
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 57700.86
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 57211.08
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 57147.25
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 56874.55
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 56426.95
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 55833.59
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 55885.43
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 55730.8
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 55403.29
+    },
+    {
+      "date": "2023-11-14",
+      "cumulative_pnl_bps": 54931.69
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 54956.05
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 54980.27
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 54976.54
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 54583.36
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 54942.88
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 55445.53
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 55940.88
+    },
+    {
+      "date": "2023-12-07",
+      "cumulative_pnl_bps": 56099.42
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55989.04
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55872.88
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55626.86
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55059.22
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54971.55
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54878.12
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54655.12
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54111.22
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54401.55
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54886.69
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55220.07
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55307.83
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55470.58
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55830.7
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 56037.06
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55994.57
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55779.31
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55396.67
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 55118.42
+    },
+    {
+      "date": "2023-12-08",
+      "cumulative_pnl_bps": 54707.63
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 54747.59
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 54796.66
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 54831.73
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 54450.57
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 54115.75
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 53577.99
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 53396.74
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 52865.7
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 52472.85
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 51875.92
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 51637.51
+    },
+    {
+      "date": "2023-12-11",
+      "cumulative_pnl_bps": 51047.34
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50962.0
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50969.67
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50958.57
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50588.7
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50427.78
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50360.58
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 50274.47
+    },
+    {
+      "date": "2023-12-12",
+      "cumulative_pnl_bps": 49826.89
+    },
+    {
+      "date": "2023-12-13",
+      "cumulative_pnl_bps": 50232.91
+    },
+    {
+      "date": "2023-12-13",
+      "cumulative_pnl_bps": 50815.13
+    },
+    {
+      "date": "2023-12-13",
+      "cumulative_pnl_bps": 50875.54
+    },
+    {
+      "date": "2023-12-13",
+      "cumulative_pnl_bps": 51016.64
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 51421.41
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 52023.85
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 51981.46
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 52217.32
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 52643.09
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 53266.09
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 53245.68
+    },
+    {
+      "date": "2023-12-14",
+      "cumulative_pnl_bps": 53502.91
+    },
+    {
+      "date": "2023-12-27",
+      "cumulative_pnl_bps": 53871.7
+    },
+    {
+      "date": "2023-12-27",
+      "cumulative_pnl_bps": 53890.98
+    },
+    {
+      "date": "2023-12-27",
+      "cumulative_pnl_bps": 53929.9
+    },
+    {
+      "date": "2023-12-27",
+      "cumulative_pnl_bps": 53764.33
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 54048.83
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 54021.93
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53915.43
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53577.0
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53829.29
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53769.15
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53629.14
+    },
+    {
+      "date": "2023-12-28",
+      "cumulative_pnl_bps": 53256.43
+    }
+  ],
+  "return_distribution": [
+    -70.26,
+    -265.89,
+    -596.85,
+    -496.74,
+    -221.85,
+    -373.27,
+    -570.08,
+    -439.11,
+    -268.36,
+    -420.48,
+    -618.18,
+    -486.61,
+    171.25,
+    635.23,
+    587.24,
+    941.17,
+    72.05,
+    503.74,
+    411.42,
+    1056.6,
+    96.03,
+    526.68,
+    434.57,
+    1078.19,
+    426.02,
+    825.88,
+    677.03,
+    666.63,
+    478.56,
+    660.25,
+    618.55,
+    545.69,
+    297.49,
+    482.64,
+    440.15,
+    365.9,
+    288.4,
+    73.39,
+    -20.41,
+    -218.9,
+    346.12,
+    -25.82,
+    -87.0,
+    -187.03,
+    297.77,
+    -76.05,
+    -137.53,
+    -238.06,
+    282.4,
+    352.5,
+    120.05,
+    -128.6,
+    175.51,
+    305.81,
+    61.11,
+    -189.03,
+    132.7,
+    263.57,
+    17.8,
+    -233.43,
+    161.58,
+    -9.59,
+    -41.79,
+    -228.99,
+    103.99,
+    -106.62,
+    -230.88,
+    -333.55,
+    66.54,
+    -144.87,
+    -269.6,
+    -372.66,
+    215.34,
+    63.45,
+    -15.18,
+    -245.56,
+    90.51,
+    -9.74,
+    -136.32,
+    -294.52,
+    64.38,
+    -36.12,
+    -163.04,
+    -321.66,
+    456.79,
+    600.24,
+    718.05,
+    758.94,
+    499.07,
+    472.98,
+    618.22,
+    737.5,
+    469.45,
+    443.27,
+    588.96,
+    708.62,
+    296.88,
+    213.32,
+    585.82,
+    580.12,
+    126.26,
+    126.12,
+    249.86,
+    458.06,
+    148.4,
+    148.26,
+    271.72,
+    479.45,
+    842.84,
+    801.88,
+    451.89,
+    -417.05,
+    521.36,
+    839.06,
+    56.1,
+    -532.61,
+    476.61,
+    795.81,
+    9.16,
+    -582.35,
+    25.4,
+    -37.35,
+    -242.38,
+    -134.38,
+    -112.09,
+    -146.71,
+    -428.46,
+    -129.74,
+    -271.16,
+    -306.32,
+    -592.51,
+    -289.08,
+    24.36,
+    24.22,
+    -3.73,
+    -393.18,
+    -110.38,
+    -116.16,
+    -246.02,
+    -567.64,
+    -87.67,
+    -93.43,
+    -223.0,
+    -543.9,
+    77.36,
+    -105.59,
+    -434.79,
+    -434.93,
+    -20.14,
+    -217.32,
+    -506.86,
+    -568.58,
+    -1.7,
+    -198.52,
+    -487.53,
+    -549.13,
+    448.07,
+    112.67,
+    135.66,
+    488.12,
+    185.26,
+    3.2,
+    -26.28,
+    677.81,
+    191.01,
+    9.05,
+    -20.41,
+    683.26,
+    451.39,
+    243.05,
+    -2.04,
+    -75.66,
+    456.05,
+    284.98,
+    -32.62,
+    40.5,
+    479.25,
+    308.59,
+    -8.23,
+    64.71,
+    4.43,
+    -118.55,
+    10.3,
+    102.3,
+    -7.75,
+    -193.65,
+    -45.18,
+    -32.93,
+    -13.94,
+    -199.95,
+    -51.39,
+    -39.14,
+    239.6,
+    579.6,
+    121.83,
+    177.35,
+    179.99,
+    298.68,
+    -32.92,
+    67.01,
+    130.71,
+    250.0,
+    -83.26,
+    17.16,
+    112.36,
+    -77.06,
+    -58.27,
+    -96.26,
+    62.72,
+    -128.62,
+    -192.5,
+    -141.64,
+    50.06,
+    -141.52,
+    -205.48,
+    -154.56,
+    176.42,
+    170.14,
+    182.29,
+    65.45,
+    29.71,
+    54.49,
+    48.12,
+    -64.16,
+    -20.14,
+    4.77,
+    -1.63,
+    -114.47,
+    209.53,
+    141.12,
+    265.13,
+    72.56,
+    11.45,
+    -77.13,
+    -52.0,
+    -33.18,
+    67.8,
+    -20.27,
+    4.71,
+    23.42,
+    169.62,
+    580.61,
+    1073.83,
+    1073.7,
+    209.31,
+    483.23,
+    1101.32,
+    1209.53,
+    227.95,
+    501.35,
+    1118.27,
+    1226.27,
+    1776.74,
+    1705.58,
+    810.56,
+    519.22,
+    1228.97,
+    1738.52,
+    395.96,
+    647.08,
+    1120.85,
+    1636.7,
+    277.55,
+    531.78,
+    -376.71,
+    -432.32,
+    -725.64,
+    -797.09,
+    -304.72,
+    -510.39,
+    -739.78,
+    -779.44,
+    -27.83,
+    -227.97,
+    -451.18,
+    -489.78,
+    406.02,
+    582.22,
+    60.41,
+    141.1,
+    404.77,
+    602.44,
+    -42.39,
+    235.86,
+    425.77,
+    623.0,
+    -20.41,
+    257.23,
+    -257.87,
+    -495.73,
+    -971.33,
+    -871.77,
+    -413.05,
+    -582.68,
+    -1060.47,
+    -860.3,
+    -381.12,
+    -550.23,
+    -1026.55,
+    -827.0,
+    276.68,
+    644.04,
+    474.29,
+    1032.46,
+    123.44,
+    546.85,
+    230.85,
+    1099.34,
+    221.51,
+    640.71,
+    327.85,
+    1187.7,
+    474.54,
+    649.44,
+    504.7,
+    276.26,
+    525.18,
+    571.12,
+    402.02,
+    156.1,
+    256.32,
+    303.58,
+    129.67,
+    -123.23,
+    80.95,
+    -90.26,
+    -222.59,
+    -199.4,
+    57.68,
+    -98.09,
+    -253.87,
+    -90.59,
+    -20.14,
+    -177.14,
+    -334.14,
+    -169.57,
+    461.15,
+    407.53,
+    201.13,
+    -287.93,
+    378.94,
+    440.2,
+    94.71,
+    -289.16,
+    312.17,
+    373.85,
+    25.96,
+    -360.58,
+    189.13,
+    -251.96,
+    -483.79,
+    -805.3,
+    2.54,
+    -436.0,
+    -730.92,
+    -897.34,
+    -96.47,
+    -539.36,
+    -837.2,
+    -1005.28,
+    188.34,
+    28.37,
+    -62.11,
+    -263.77,
+    7.7,
+    -13.31,
+    -62.16,
+    -145.81,
+    137.83,
+    117.09,
+    68.87,
+    -13.68,
+    275.4,
+    371.48,
+    295.74,
+    226.88,
+    272.34,
+    251.31,
+    125.83,
+    264.97,
+    265.58,
+    244.53,
+    118.96,
+    258.2,
+    275.85,
+    148.86,
+    797.07,
+    1163.38,
+    144.15,
+    -34.56,
+    643.87,
+    1115.17,
+    108.89,
+    -70.45,
+    610.41,
+    1083.39,
+    259.64,
+    11.7,
+    -252.23,
+    -955.8,
+    51.86,
+    -20.27,
+    -452.41,
+    -948.55,
+    35.95,
+    -36.3,
+    -469.13,
+    -966.06,
+    -110.23,
+    -290.54,
+    -500.89,
+    -283.31,
+    -201.27,
+    -344.8,
+    -609.09,
+    -194.13,
+    -239.83,
+    -383.91,
+    -649.2,
+    -232.67,
+    359.52,
+    502.65,
+    495.35,
+    158.54,
+    290.33,
+    485.14,
+    333.38,
+    87.76,
+    162.75,
+    360.12,
+    206.36,
+    -42.49,
+    159.69,
+    143.92,
+    -0.86,
+    -192.56,
+    86.16,
+    -75.39,
+    -248.76,
+    -138.66,
+    50.98,
+    -111.15,
+    -285.13,
+    -174.64,
+    494.85,
+    579.27,
+    652.15,
+    1109.35,
+    464.92,
+    565.68,
+    662.55,
+    984.5,
+    439.01,
+    540.04,
+    637.18,
+    960.0,
+    101.02,
+    260.99,
+    -306.0,
+    -358.06,
+    148.47,
+    169.95,
+    -344.67,
+    -340.48,
+    127.18,
+    148.7,
+    -367.03,
+    -362.84,
+    113.25,
+    192.31,
+    275.55,
+    329.6,
+    63.76,
+    281.74,
+    382.27,
+    390.53,
+    84.51,
+    302.04,
+    402.36,
+    410.59,
+    217.44,
+    575.84,
+    865.12,
+    372.54,
+    216.5,
+    492.43,
+    711.4,
+    167.88,
+    233.58,
+    509.04,
+    727.62,
+    185.05,
+    74.2,
+    -199.97,
+    -532.54,
+    -618.03,
+    -133.11,
+    -390.81,
+    -558.14,
+    -594.43,
+    -119.41,
+    -376.77,
+    -543.88,
+    -580.11,
+    166.38,
+    242.55,
+    77.09,
+    259.23,
+    163.0,
+    226.74,
+    69.03,
+    188.14,
+    171.35,
+    235.05,
+    77.46,
+    196.47,
+    634.52,
+    559.69,
+    607.88,
+    774.71,
+    526.77,
+    348.78,
+    504.27,
+    730.9,
+    514.15,
+    335.91,
+    491.61,
+    718.54,
+    55.84,
+    221.89,
+    815.3,
+    872.14,
+    27.82,
+    358.62,
+    1001.17,
+    655.71,
+    75.33,
+    404.55,
+    1044.03,
+    700.22,
+    -265.18,
+    355.12,
+    42.15,
+    -1032.02,
+    -270.4,
+    276.91,
+    -317.6,
+    -906.89,
+    -133.31,
+    406.68,
+    -179.88,
+    -761.29,
+    -211.5,
+    -363.75,
+    -780.96,
+    -476.88,
+    -63.83,
+    -272.7,
+    -447.6,
+    -593.36,
+    51.84,
+    -154.63,
+    -327.51,
+    -471.6,
+    39.96,
+    49.07,
+    35.07,
+    -381.16,
+    -85.34,
+    7.67,
+    -11.1,
+    -369.87,
+    -160.92,
+    -67.2,
+    -86.11,
+    -447.58,
+    55.21,
+    411.23,
+    137.12,
+    753.42,
+    42.19,
+    284.43,
+    55.77,
+    852.03,
+    137.61,
+    377.53,
+    151.06,
+    939.67,
+    120.92,
+    -35.12,
+    -413.88,
+    -339.78,
+    -12.73,
+    -64.72,
+    -442.63,
+    -331.66,
+    -255.34,
+    -308.59,
+    -695.68,
+    -582.0,
+    -92.13,
+    145.31,
+    209.97,
+    137.84,
+    -179.67,
+    -27.53,
+    276.91,
+    146.24,
+    -34.43,
+    115.54,
+    415.61,
+    286.81,
+    53.02,
+    257.71,
+    -86.25,
+    -444.83,
+    -175.12,
+    75.67,
+    -382.03,
+    -470.73,
+    -167.63,
+    82.97,
+    -374.39,
+    -463.03,
+    -265.75,
+    -139.57,
+    -371.29,
+    -231.07,
+    -316.96,
+    -98.01,
+    -522.18,
+    -388.04,
+    -309.68,
+    -90.9,
+    -514.76,
+    -380.72,
+    -261.42,
+    -73.89,
+    26.51,
+    -114.38,
+    -269.97,
+    -121.56,
+    -6.91,
+    -121.83,
+    -242.36,
+    -94.35,
+    19.99,
+    -94.62,
+    298.59,
+    384.77,
+    92.47,
+    185.3,
+    398.47,
+    531.22,
+    99.19,
+    132.28,
+    340.83,
+    474.38,
+    39.75,
+    73.04,
+    162.05,
+    202.4,
+    485.66,
+    566.5,
+    -94.61,
+    297.94,
+    480.61,
+    473.7,
+    -108.27,
+    284.81,
+    467.72,
+    460.81,
+    285.7,
+    804.76,
+    690.83,
+    356.41,
+    280.72,
+    932.45,
+    309.1,
+    445.07,
+    182.47,
+    840.8,
+    211.14,
+    348.48,
+    -189.88,
+    -514.74,
+    -581.3,
+    -515.01,
+    -452.33,
+    -608.95,
+    -668.7,
+    -601.77,
+    -398.19,
+    -554.0,
+    -613.44,
+    -546.86,
+    -215.26,
+    -382.64,
+    -278.25,
+    -410.79,
+    -334.82,
+    -537.76,
+    -181.25,
+    -531.04,
+    -392.85,
+    -596.93,
+    -238.41,
+    -590.17,
+    368.79,
+    19.28,
+    38.92,
+    -165.57,
+    284.5,
+    -26.9,
+    -106.5,
+    -338.43,
+    252.29,
+    -60.14,
+    -140.01,
+    -372.71
+  ]
+}
